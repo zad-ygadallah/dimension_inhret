@@ -20,13 +20,14 @@
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['sale_stock'],
+    'depends': ['sale_stock', 'account'],
 
     # always loaded
     'data': [
         # 'security/ir.model.access.csv',
         'views/sale_order_view.xml',
         'views/stock_move_view.xml',
+        'views/invoice_account_view.xml',
 
     ],
     # only loaded in demonstration mode
